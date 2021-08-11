@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
+    <title>TIC - TAC - TOE</title>
+</head>
+
+<body>
+
+    <h1>TIC - TAC - TOE</h1>
+
+    <div class="main-content">
+        <div class="d1">
+            <div id="box1" onclick="move(0, 0)">
+                <div class="boxChild"></div>
+            </div>
+            <div id="box2" onclick="move(0, 1)">
+                <div class="boxChild"></div>
+            </div>
+            <div id="box3" onclick="move(0, 2)">
+                <div class="boxChild"></div>
+            </div>
+        </div>
+
+        <div class="d2">
+            <div id="box4" onclick="move(1, 0)">
+                <div class="boxChild"></div>
+            </div>
+            <div id="box5" onclick="move(1, 1)">
+                <div class="boxChild"></div>
+            </div>
+            <div id="box6" onclick="move(1, 2)">
+                <div class="boxChild"></div>
+            </div>
+        </div>
+
+        <div class="d3">
+            <div id="box7" onclick="move(2, 0)">
+                <div class="boxChild"></div>
+            </div>
+            <div id="box8" onclick="move(2, 1)">
+                <div class="boxChild"></div>
+            </div>
+            <div id="box9" onclick="move(2, 2)">
+                <div class="boxChild"></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="ans">!! Let's start the game !! <br><br> (Chance of player 1 (X) )</div>
+    <div class="reset-button">
+        <button id="reset" type="submit">RESET</button>
+    </div>
+
+    <footer>
+        <p>Made with <i class="em em-heart" aria-role="presentation" aria-label="HEAVY BLACK HEART"></i> in India by <strong><a href="https://drive.google.com/file/d/1Yaj0lEsf1gCs9HHjHmt7hSwrMJyI4raj/view" target="_blank"> Vivek Varshney</a></strong></p>
+    </footer>
+
+    <audio id="audio" src="button-29.mp3"></audio>
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
